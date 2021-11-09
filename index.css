@@ -1,0 +1,346 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+} 
+
+body{
+    text-size-adjust: 100%;
+    overflow-x: hidden;
+    color: rgb(255, 255, 255);
+    font: 300 14px / 1.9 "Noto Sans JP", Arial, Verdana, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+    background: rgb(0, 0, 0);
+}
+
+header{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: black;
+}
+
+.drawer-btn:checked ~ .header-nav .menu{
+    transform: translateY(0%);
+}
+
+.drawer-btn{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    transform: scale(1.5);
+    opacity: 0;
+}
+
+.header-nav{
+    background-color: black;
+    text-align: left;
+    transform: translateY(-110%);
+    transition: 0.5s;
+}
+
+.header-menu li{
+    padding: 18px 0;
+    border-bottom: solid 1px white;
+}
+
+.header-menu .fas{
+    padding: 0 10px;
+}
+
+.header-menu a:hover{
+    text-decoration: underline;
+}
+
+.header-icon{
+    border-bottom: solid white 1px;
+}
+
+.header-icon .fab{
+    padding: 12px 10px;
+
+}
+
+header img{
+    width: 100px;
+    height: 25px;
+    padding-top: 15px;
+}
+
+header .fa-bars{
+    float: right;
+    padding-top: 22px;
+    padding-right: 20px;
+}
+
+.drawer-btn:checked ~ .header-nav{
+    transform: translateY(0);
+}
+
+
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+}
+
+li{
+    list-style: none;
+}
+
+.side-bar{
+    width: 20%;
+    position: fixed;
+    right: 0;
+    height: 100%;
+}
+
+.side-logo{
+    height: 22.4px;
+    width: 87px;
+    padding: 25px 0 40px 0;;
+}
+
+.side-contents{
+    padding-left: 16%;
+}
+
+.side-menu li{
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+.side-menu li:hover{
+    text-decoration: underline;
+}
+
+.side-icons .fab{
+    padding: 45px 10px 0 0;
+}
+
+.side-icons .fab:hover{
+    opacity: 0.7;
+}
+
+.contents{
+    width: 80%;
+}
+
+.top-img{
+    width: 100%;
+}
+
+.message-wrapper{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+}
+
+.heading{
+    padding: 80px 0 20px 0;
+    margin-bottom: 50px;
+    border-bottom: solid 3px white;
+    display: inline-block;
+}
+
+.text-area{
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    padding-bottom: 85px;
+}
+
+.photo-wrapper img{
+    width: 33.3%;
+}
+
+span .big-photo{
+    width: 100%;
+}
+
+img{
+    vertical-align: bottom;
+}
+
+.brand-wrapper{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+}
+
+.brand-contents{
+    display: flex;
+    padding-bottom: 50px;
+    border-bottom: solid 3px white;
+}
+
+.brand-contents-item{
+    width: 25%;
+    padding: 0 25px;
+    text-align: left;
+}
+.brand-contents-item img{
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.project-wrapper{
+    width: 80%;
+    margin:  0 auto;
+    text-align: center;
+    padding-bottom: 120px;
+    border-bottom: solid white 3px;
+    font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+}
+
+.project-item{
+    padding-bottom: 70px;
+}
+
+.project-item img{
+    width: 375px;
+    height: 225px;
+    padding-right: 20px;
+    float: left;
+}
+
+.project-item p{
+    text-align: left;
+}
+
+.company-wrapper{
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+}
+
+.company-contents{
+    display: flex;
+    padding-bottom: 200px;
+}
+
+.address{
+    text-align: left;
+    margin-right: 15%;
+}
+
+.ggmap{
+    width: 60%;
+    position: relative;
+    padding-bottom: 25%;
+}
+
+iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    width: 80%;
+    text-align: center;
+}
+
+footer p{
+    padding-bottom: 60px;
+    font-size: 12px;
+}
+
+footer a{
+    color: teal;
+}
